@@ -1,0 +1,37 @@
+{
+  "questions": [
+    {
+      "question": "What is your marital status?",
+      "answers": [
+        {
+          "text": "Single",
+          "nextQuestionId": 2
+        },
+        {
+          "text": "Married",
+          "nextQuestionId": 3
+        }
+      ]
+    },
+    {
+      "question": "Are you planning on getting married next year?",
+      "answers": [{ "text": "Yes" }, { "text": "No" }]
+    },
+    {
+      "question": "How long have you been married?",
+      "answers": [
+        {
+          "text": "Less than a year"
+        },
+        {
+          "text": "More than a year",
+          "nextQuestionId": 4
+        }
+      ]
+    },
+    {
+      "question": "Have you celebrated your one year anniversary?",
+      "answers": [{ "text": "Yes" }, { "text": "No" }]
+    }
+  ]
+}
